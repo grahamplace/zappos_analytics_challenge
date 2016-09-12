@@ -1,22 +1,23 @@
----
-title: "Zappos Data Science — Analytics Challenge"
-author: "Graham Place"
-date: "September 11, 2016"
-output: html_document
----
+# Zappos Data Science — Analytics Challenge
+## Graham Place
+### September 11, 2016
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Intro
+### Intro
 Hi! I'm Graham.
 
-## Tools
-I work primarily in R, though I have a functional knowledge of Excel and know enough Python to get by w
+***
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+### Tools
+I work primarily in R, though I have a functional knowledge of Excel and know enough Python to get by with pandas and lots of Googling. 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+All of my code, cleaned data, and presentation files can be found in [this github repo.](https://github.com/grahamplace/zappos_analytics_challenge)
+
+### Workflow
+
+My workflow for this project went something like this: 
+
+**Convert data to CSV -> Load CSV into RStudio -> Munge/Clean Data -> Visualize/Explore -> Use inisghts to draw actionable business conclusions -> Turn conclusions into pretty powerpoint slides **

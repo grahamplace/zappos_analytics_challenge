@@ -1,0 +1,22 @@
+---
+title: "Zappos Data Science — Analytics Challenge"
+author: "Graham Place"
+date: "September 11, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro
+Hi! I'm Graham.
+
+## Tools
+I work primarily in R, though I have a functional knowledge of Excel and know enough Python to get by w
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
